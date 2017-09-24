@@ -5,6 +5,8 @@
 que leia o tamanho do lado de um quadrado e calcule o
  perímetro e área, imprimindo o resultado na tela.
 */
+//Teste github
+
 int calc_per(int lado){
     return (4*lado);
 }
