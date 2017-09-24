@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1503450893 source:g:\laboratorio\exercicio fluxograma\aula c\exercicio 9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
