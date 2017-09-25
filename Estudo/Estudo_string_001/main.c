@@ -5,6 +5,6 @@
 main()
 {
     char nome[50];
-    printf("Introduza o nome completo: ");scanf("%s",nome);
+    printf("Introduza o nome completo: ");gets(nome);
     printf("Nome completo: %s\n",nome);
 }
