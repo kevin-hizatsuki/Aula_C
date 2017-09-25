@@ -31,10 +31,19 @@ int indchr(char *s,char ch)
     return -1;
 }
 
+int strpal(char *s)
+{
+    int i,j;
+    for (i=0,j=strlen(s);i<j;i++,j--)
+        if (s[i]!=s[j]){
+        return 0;}
+    return 1;
+}
+
 main ()
 {
     char Nome[DIM+1],Sobrenome[DIM+1],Completo[2*DIM+1],ch;
-    int rep,contdig,valCh;
+    int rep,contdig,valCh,valPal;
     while (1)
     {
         printf("Nome: ");gets(Nome);
@@ -46,6 +55,7 @@ main ()
         strcat(Completo,Nome);
         rep=strcountc(Completo,'e');
         valCh=indchr(Completo,ch);
+        valPal=strpal(Nome);
         puts(Completo);
         printf("O numero que se repete e igual a: %i\n",rep);
         contdig=strcountd(Completo);
@@ -63,7 +73,15 @@ main ()
         }
         else
         {
-            printf("O caracter %c nao se encontra no string\n",ch);
+            printf("O caracter %c nao se encontra na string\n",ch);
+        }
+        if (valPal==1)
+        {
+            printf("E um palindrome\n");
+        }
+        else
+        {
+            printf("Nao e um palindrome %i\n",valPal);
         }
     }
 }

@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1506360888 source:c:\users\kevin\documents\github\aula_c\estudo\estudo_string_001\main.c
+1506370827 source:c:\users\kevin\documents\github\aula_c\estudo\estudo_string_001\main.c
 	<stdio.h>
-	<stdlib.h>
-	<string.h>
+	<ctype.h>
 
