@@ -9,6 +9,7 @@ main()
     {
         puts("Nome: ");
         gets(nome);
+        printf("\nTamanho do nome: %i\n",strlen(nome));
         if (nome[0]=='\0')
             break;
         else
