@@ -4,7 +4,14 @@
 
 main()
 {
-    char nome[50];
-    printf("Introduza o nome completo: ");gets(nome);
-    printf("Nome completo: %s\n",nome);
+    char nome[100];
+    while(1)
+    {
+        puts("Nome: ");
+        gets(nome);
+        if (nome[0]=='\0')
+            break;
+        else
+            printf("Nome introduzido: %s\n",nome);
+    }
 }
