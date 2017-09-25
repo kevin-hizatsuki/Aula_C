@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1505832183 source:h:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
+1505832183 source:g:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
