@@ -7,9 +7,11 @@ int isnull(char *s)
     return(s[0]=='\0');
 }
 
+
+
 main()
 {
-    char nome[100];
+    char nome[100],nomeCopy[100];
     while(1)
     {
         puts("Nome: ");
@@ -22,5 +24,7 @@ main()
             break;
         else
             printf("Nome introduzido: %s\n",nome);
+            strcpy(nomeCopy,nome);
+            printf("Copia do nome: %s",nomeCopy);
     }
 }
