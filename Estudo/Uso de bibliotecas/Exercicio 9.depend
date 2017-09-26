@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1506450896 source:h:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 9\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"ordenando.h"
+
+1506450854 h:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 9\ordenando.h
+
+1506450896 source:c:\users\kevin\documents\github\aula_c\estudo\uso de bibliotecas\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"ordenando.h"
+
+1506450854 c:\users\kevin\documents\github\aula_c\estudo\uso de bibliotecas\ordenando.h
+
