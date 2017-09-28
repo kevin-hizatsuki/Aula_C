@@ -4,7 +4,7 @@
 
 int main()
 {
-    char a[0][100],b[0][100];
+    char a[100],b[100];
 
     printf("Digite uma frase: ");
     gets(a);
@@ -14,9 +14,10 @@ int main()
 
     printf("\nA frase invertida : %s\n",b);
     int i;
-    for(i = 0; i < strlen(b); i++) {
-        if (b[i] == 'a') {
-            b[i] = '*';
+    for (i = 0; i < strlen(b); i++){
+        if (b[i]=='a')
+            b[i]='*';
+    }
     printf("\nA frase trocada : %s\n",b);
 
     return 0;

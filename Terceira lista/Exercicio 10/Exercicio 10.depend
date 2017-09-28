@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506561635 source:g:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 10\main.c
+	<conio.h>
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1506561072 source:g:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ordenado.h"
+
+1506561017 g:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 9\ordenado.h
+
+1506561008 source:g:\2 semestre\limguagem de programação\programas em c\terceira lista\exercicio 9\ordenado.c
+	"ordenado.h"
+
