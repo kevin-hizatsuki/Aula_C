@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507058340 source:c:\users\kevin\documents\github\aula_c\estudo\exercicio  da sim prova\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
