@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1507056978 source:c:\users\kevin\documents\github\aula_c\estudo\numeros aleatorios\main.c
+1507057500 source:c:\users\kevin\documents\github\aula_c\estudo\numeros aleatorios\main.c
 	<stdio.h>
 	<stdlib.h>
+	<time.h>
 
