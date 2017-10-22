@@ -3,13 +3,23 @@
 
 main()
 {
-    int x;
-    x=10;
-    int *ponteiro;
-    ponteiro= &x;
-    int y = 20;
-    *ponteiro = y; //Ela atibui ao valor da memoria do x o valor de y.
+    int x = 10;
+    double y = 20.50;
+    char z = 'a';
 
-    printf("%i %i\n", x,y);
+    int *pX = &x;
+    double *pY = &y;
+    char *pZ = &z;
+
+    double soma= *pX + *pY;
+    int *resultado;
+    resultado = 6356732; //Esta apontando para o valor do endereço x.
+
+    printf("Endereco de x: %i - Valor de x: %i.\n",pX,*pX);
+    printf("Endereco de y: %i - Valor de y: %f.\n",pY,*pY);
+    printf("Endereco de z: %i - Valor de z: %c.\n",pZ,*pZ);
+    printf("Endereco soma: %i - Soma: %f\n",&soma,soma);
+    printf("Valor do resultado: %i\n",*resultado);
+
 
 }
