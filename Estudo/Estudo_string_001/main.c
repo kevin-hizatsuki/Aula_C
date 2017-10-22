@@ -13,16 +13,16 @@ int strcountc(char *s,char ch)
     return conta;
 }
 
-int strcountd(char *s)
+int strcountd(char *s)//Função que procura variaveis int, ou seja, numeros.
 {
     int i,conta;
     for(i=conta=0;s[i]!='\0';i++)
-        if(isdigit(s[i]))
+        if(isdigit(s[i])) //Se o caracter for um digito.
         conta++;
     return conta;
 }
 
-int indchr(char *s,char ch)
+int indchr(char *s,char ch) //Função que procura a posição de uma determinado caracter dentro de uma string.
 {
     int i;
     for (i=0;s[i]!='\0';i++)
@@ -40,9 +40,23 @@ int strpal(char *s)
     return 1;
 }
 
+char *strrev(char *s)
+{
+    int i,len;
+    char aux;
+    for (i=0,len=strlen(s)-1;i<len;i++,len--)
+    {
+        aux=s[i];
+        s[i] = s[len];
+        s[len] = aux;
+    }
+    return s;
+}
+
+
 main ()
 {
-    char Nome[DIM+1],Sobrenome[DIM+1],Completo[2*DIM+1],ch;
+    char Nome[DIM+1],Sobrenome[DIM+1],Completo[2*DIM+1],ch,Invertida[DIM+1+DIM+1];
     int rep,contdig,valCh,valPal;
     while (1)
     {
@@ -59,6 +73,8 @@ main ()
         puts(Completo);
         printf("O numero que se repete e igual a: %i\n",rep);
         contdig=strcountd(Completo);
+        Invertida= *strrev(*Completo);
+        printf("O nome invertido e : %s",Invertida);
         if (contdig!=0)
         {
             printf("Este string contem %i numeros\n",contdig);
