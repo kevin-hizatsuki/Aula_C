@@ -33,7 +33,11 @@ int main()
     depois.letra = 'a';
 
     struct horario vetor[5]={{15,65,4},{1,5,4},{5,5,47},{125,625,41},{145,675,48}};
-        printf("Vetor: %i:%i:%i\n",vetor[1].horas,vetor[0].minutos,vetor[4].segundos);
+    int i;
+    for(i=0;i<5;i++){
+        printf("Vetor %i: %i:%i:%i\n",i+1,vetor[i].horas,vetor[i].minutos,vetor[i].segundos);
+
+    }
 
     /*vetor[0].horas=15;
     vetor[0].minutos=5;
