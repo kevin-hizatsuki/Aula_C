@@ -32,6 +32,14 @@ int main()
     depois.teste = 50.22/6;
     depois.letra = 'a';
 
+    struct horario vetor[5]={{15,65,4},{1,5,4},{5,5,47},{125,625,41},{145,675,48}};
+        printf("Vetor: %i:%i:%i\n",vetor[1].horas,vetor[0].minutos,vetor[4].segundos);
+
+    /*vetor[0].horas=15;
+    vetor[0].minutos=5;
+    vetor[0].segundos=1;
+    printf("Vetor: %i:%i:%i\n",vetor[0].horas,vetor[0].minutos,vetor[0].segundos);*/
+
     printf("%i:%i:%i\n",agora.horas,agora.minutos,agora.segundos);
     printf("%i\n",depois.horas);
     printf("%i\n",depois.minutos);
