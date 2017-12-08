@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509650134 source:h:\2 semestre\limguagem de programação\programas em c\4-quarta lista\exercicio 4\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<math.h>
+

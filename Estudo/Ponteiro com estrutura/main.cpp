@@ -1,32 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct horario{
-    int hora;
-    int minuto;
-    int segundo;
-};
 
 int main()
 {
-    struct horario agora,*depois;
-    depois = &agora;
-    (*depois).hora=20;
-    (*depois).minuto=50;
-    (*depois).segundo=60;
+    struct horario{
+        int *pHora;
+        int *pMinuto;
+        int *pSegundo;
+    };
 
-    int somatorio=100;
-    struct horario antes;
+    struct horario horas;
 
-    antes.hora=somatorio + (*depois).segundo;
-    antes.minuto=agora.hora+depois->minuto;
+    int hora=100;
+    int minuto=200;
+    int segundo=300;
 
+    horas.pHora=&hora;
+    horas.pMinuto=&minuto;
+    horas.pSegundo=&segundo;
 
-
-    printf("%i:%i:%i\n",antes.hora,antes.minuto,antes.segundo);
-
-
-    printf("%i:%i:%i",agora.hora,agora.minuto,agora.segundo);
+    printf("Hora - %i\n",*horas.pHora);
+    printf("Minuto - %i\n",*horas.pMinuto);
+    printf("Segundo - %i\n",*horas.pSegundo);
 
     return 0;
 }

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1509498382 source:g:\2 semestre\limguagem de programação\programas em c\4-quarta lista\exercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1509569298 source:h:\2 semestre\limguagem de programação\programas em c\4-quarta lista\exercicio 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+

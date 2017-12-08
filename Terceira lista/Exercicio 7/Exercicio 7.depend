@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506202274 source:c:\users\kevin\documents\github\aula_c\terceira lista\exercicio 7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

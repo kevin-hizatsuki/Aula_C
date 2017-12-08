@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1510601551 source:h:\2 semestre\limguagem de programação\programas em c\5-quinta lista\exercicio 4\main.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<conio.h>
+	<locale.h>
+

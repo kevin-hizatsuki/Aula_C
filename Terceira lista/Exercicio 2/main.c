@@ -62,7 +62,9 @@ int main()
         ano=ano-1;
     }
     base=calculoAlg(dia,mes,ano);
+    printf("%i\n",base);
     k=base%7;
+    printf("%i\n",k);
     sprintf(c,"%d",k);
     linha=procSem();
     if(linha!=-1)
